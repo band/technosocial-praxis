@@ -1,4 +1,4 @@
-# SocialPraxis
+# Social Praxis
 
 The technics and practices of the so-called "socials", exemplified in
 2024 by Bluesky, the Mastodon collection of instances, Meta's threads
@@ -8,4 +8,7 @@ One aim of this wiki is to collect information and opinions on these topics. A s
 empirical question.  
 
 -----
-![[rodanthe_pier.png]]
+
+![[rodantheSeashore200801.jpg]]    
+Rodanthe, North Carolina, USA, January 2008  
+
