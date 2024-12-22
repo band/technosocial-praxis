@@ -1,35 +1,6 @@
-# baseline gitignore for NXC
-# for Obsidian.md vaults
-.obsidian/*
-
-# Python
-__pycache__
-venv
-
-# Node
-node_modules
-
-# NXC
-.nxc/output/*
-
-# baseline gitignore for NXC
-# for Obsidian.md vaults
-.obsidian/*
-
-# Python
-__pycache__
-venv
-
-# Node
-node_modules
-
-# NXC
-.nxc/output/*
-
-
 # Local Netlify folder
 .netlify
-# baseline gitignore for NXC
+# baseline gitignore for MARKPUB
 # for Obsidian.md vaults
 .obsidian/*
 
