@@ -29,3 +29,17 @@ node_modules
 
 # Local Netlify folder
 .netlify
+# baseline gitignore for NXC
+# for Obsidian.md vaults
+.obsidian/*
+
+# Python
+__pycache__
+venv
+
+# Node
+node_modules
+
+# MARKPUB
+.markpub/output/*
+
