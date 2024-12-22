@@ -7,7 +7,7 @@ TODO: need a separate wiki for notes and posts on technology, socials, and assoc
 
 my own post describing the socials:  
 > [**anderbill** @band](https://hachyderm.io/@band "band")  2024-09-27:  
- the set of socials is a collection of silos, some with moats, connected by ad-hoc bridges, some of which only support traffic one-way. is this the current fediverse?
+  the set of socials is a collection of silos, some with moats, connected by ad-hoc bridges, some of which only support traffic one-way. is this the current fediverse?
 
 [[Decentralization - and Bluesky]]  
 excerpts:  
