@@ -1,4 +1,4 @@
-# Social Praxis
+# TechnoSocial Praxis
 
 The technics and practices of the so-called "socials", exemplified in
 2024 by Bluesky, the Mastodon collection of instances, Meta's threads
