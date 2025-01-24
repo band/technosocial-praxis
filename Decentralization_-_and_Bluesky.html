@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decentralization - and Bluesky - Social Praxis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/nxcTestVault/markpub-static/css/style.css">
+    <link rel="stylesheet" href="/nxcTestVault/markpub-static/css/custom.css">
+    <link rel="stylesheet" href="https://unpkg.com/bluesky-comments@0.5.1/dist/bluesky-comments.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+    <script src="/nxcTestVault/lunr-index-1737747966.495808.js"></script>
+    <script>var index = lunr.Index.load(lunr_index)</script>
+    
+    
+    <script src="/nxcTestVault/lunr-posts-1737747966.495808.js"></script>
+    <script> function randomPageLink() { return "/nxcTestVault"+lunr_posts[Math.floor(Math.random() * lunr_posts.length)].link; } </script>
+    
+  </head>
+<body>
+  <div id="header">
+    <span id="hamburger-btn"
+    class="hidden">&#9776;</span><a class="button is-light" id="header-link" href="/nxcTestVault/index.html">Social Praxis</a>
+  </div>
+
+  <div class="container" id="flex-container">
+    <div id="side-column">
+      <div>
+        <button id="hide-btn">Hide</button>
+        <button id="move-btn" class="hidden">Move to Sidebar</button>
+      </div>
+      <h3>Site Navigation</h3>
+<div class="navlinks">
+<ul>
+<li><a class="wikilink" href="/nxcTestVault/README.html">HOME</a></li>
+<li><a href="/nxcTestVault/search.html">SEARCH</a></li>
+<li><a href="/nxcTestVault/all-pages.html">ALL PAGES</a></li>
+<li><a href="/nxcTestVault/recent-pages.html">RECENT CHANGES</a></li>
+</ul>
+</div>
+<div class="navlinks">
+  <button onclick="location.href=`${randomPageLink()}`">
+    RANDOM PAGE
+  </button>
+</div>
+
+    </div>
+
+    <div id="main-column">
+      
+      <div> <!-- edit this page button -->
+	<p style="float:right; margin:.5em .5em
+	.5em"><a target="_blank" href="https://github.com/band/socialpraxis/edit/main/Decentralization - and Bluesky.md"
+	class="edit-this-page-button">Edit on GitHub</a></p>
+	<br clear="all">
+      </div> <!-- edit this page button -->
+      
+      <h1>Decentralization - and Bluesky</h1>
+<p>Resources and notes on Bluesky and decentralization</p>
+<p>2024-12-16:  <a href="https://dustycloud.org/blog/re-re-bluesky-decentralization/">Re: Re: Bluesky and Decentralization</a><br />
+By Christine Lemmer-Webber on Fri 13 December 2024</p>
+<p>2024-12-17: [## <a href="https://dustycloud.org/blog/how-decentralized-is-bluesky/#f">How decentralized is Bluesky really?</a>]<br />
+By Christine Lemmer-Webber on Fri 22 November 2024<br />
+- some key notions:<br />
+- <strong>Decentralization</strong> is the result of a system that diffuses power throughout its structure, so that no node holds particular power at the center.<br />
+- "<strong>Federation</strong>", as has been used as a <em>technical</em> term since the emergence of the "Fediverse" ... is a technical approach to communication architecture which achieves decentralization by many independent nodes cooperating and communicating to be a unified whole, with no node holding more power than the responsibility or communication of its parts.<br />
+- Reference definitions of these terms (from wordnik) that I think are close enough to how Christine uses these terms in this post:<br />
+- <strong>decentralized</strong>: (adjective) not centralized; having no center or several centers: from <a href="https://www.wordnik.com/words/decentralized">Wiktionary, Creative Commons Attribution/Share-Alike License</a><br />
+- <strong>federation</strong>: (noun) the act of constituting a political unity out of a number of separate states or colonies or provinces so that each member retains the management of its internal affairs: from <a href="https://www.wordnik.com/words/federation">WordNet 3.0 Copyright 2006 by Princeton University</a></p>
+<blockquote>
+<p>There is one other thing which Bluesky gets right, and which the present-day fediverse does not. This is that Bluesky uses content-addressed content, so that content can survive if a node goes down.<br />
+... even though such a thing is spec-compatible with ActivityPub, <em>content-addressing is not done today on ActivityPub</em>, and <em>is</em> done on Bluesky.<br />
+SIDENOTE: "content-addressed content": i do not understand what this means; i need an example and counter-example<br />
+...
+Bluesky's direct messages ... don't use any particular kind of protocol which is amenable to decentralization or federation.<br />
+SIDENOTE: what property or properties of protocol make them "amenable to decentralization or federation"?<br />
+...<br />
+... in all ways related to the distribution of power, Bluesky's technology is notably much less distributed than existing and prominent decentralized technology <em>in deployment today</em>.</p>
+</blockquote>
+<p>...</p>
+<blockquote>
+<p>In my opinion, this should actually be the way Bluesky brands itself ... : an open architecture (that is fair to say!) with the possibility of credible exit. This would be more accurate and reflect better what is provided to users.</p>
+</blockquote>
+<p>...
+(edited from the Decentralized Identifiers history section) " ... the web (is) open and decentralized. Also, the naming+encryption system the web runs on top of is not: DNS+TLS relies on trusting ICANN on down and TLS Certificate Authorities, both of which are centralized approaches."<br />
+N.B.: <code>did:web</code> provides the same security as retrieving a key over <code>https:</code></p>
+<p>...</p>
+<blockquote>
+<p>... one thing I think <em>is</em> true: the fediverse <em>is</em> decentralized and <em>is</em> federated.</p>
+</blockquote>
+<blockquote>
+<p>I stand by my assertions that Bluesky is not meaningfully decentralized and that it is certainly not federated according to any technical definition of federation we have had in a decentralized social network context previously. To claim that Bluesky is decentralized or federated in its current form moves the goalposts of both of those terms ....</p>
+</blockquote>
+<p>...</p>
+<blockquote>
+<p>... "credible exit" really is the right term for Bluesky's architectural goals. Rearchitecting towards meaningful decentralization and federation is a massive overhaul of Bluesky's infrastructure, but providing "credible exit" is not. It is my opinion that leaning into "credible exit" is the best thing that Bluesky can do: perhaps a large corporation or two always have to sit at the center of Bluesky, but perhaps also it will be possible for people to leave.</p>
+</blockquote>
+<hr />
+<p>Some acronyms and other terms for which I needed definitions:</p>
+<p>PBC: Public Benefit Corporation</p>
+<p>PDS:</p>
+<p>Relay:</p>
+<p>"content-addressed content": TODO: include a useful definition and example</p>
+<p><em>credible exit</em>: if Bluesky Social PBC goes out of business or loses users’ trust, other providers can step in to provide an equivalent service using the same dataset and the same protocols. -- <a href="https://arxiv.org/pdf/2402.03239">Bluesky and the AT Protocol: Usable Decentralized Social Media</a></p>
+
+      
+      <hr>
+      <div>
+	<h4>Pages that link to this page</h4>
+	<ul>
+	  
+	  <li><a href="/nxcTestVault/The_socials_-_notes_on_practices.html">The socials - notes on practices</a>
+	  
+	</ul>
+      </div>
+      
+    </div>
+  </div>
+  
+  <footer class="footer">
+  <div class="content has-text-centered">
+    
+    <div><strong>Social Praxis</strong> by anderbill.</div>
+    
+    
+    <div>Central repository at <a href="https://github.com/band/socialpraxis">socialpraxis</a>.</div>
+    
+    
+    <div>Licensed under <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</div>
+    
+    <div><em>Site last updated on Friday, January 24, 2025 at 19:46 UTC.</em></div>
+  </div>
+</footer>
+</body>
+</html>
