@@ -24,19 +24,19 @@ jobs:
 
     - name: install Python dependencies
       run: |
-        cd .nxc
+        cd .markpub
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
     - name: install node modules
-      working-directory: .nxc
+      working-directory: .markpub
       run: |
         npm ci
 
     - name: Build website
       run: |
-        cd .nxc
-        nxc build -i .. -o ../output -r /nxcTestVault --lunr --commits
+        cd .markpub
+        markpub build -i .. -o ../output -r /nxcTestVault --lunr --commits
 
     - name: add a nojekyll file
       run: touch $GITHUB_WORKSPACE/output/.nojekyll
