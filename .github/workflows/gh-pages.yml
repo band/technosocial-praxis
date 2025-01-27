@@ -1,4 +1,4 @@
-name: Deploy MassiveWiki to GitHub Pages
+name: MarkPUb deploy to GitHub Pages
 
 on:
   push:
