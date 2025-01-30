@@ -1,3 +1,7 @@
+---
+bluesky_comments_post: https://bsky.app/profile/anderbill.bsky.social/post/3lgw2nljskc2o
+---
+
 # The socials - notes on practices
 
 The socials - notes on praxis, and more ....  

@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="/technosocial-praxis/markpub-static/css/bluesky-comments.css">    
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
-    <script src="/technosocial-praxis/lunr-index-1738192365.3041177.js"></script>
+    <script src="/technosocial-praxis/lunr-index-1738249417.3315773.js"></script>
     <script>var index = lunr.Index.load(lunr_index)</script>
     
     
-    <script src="/technosocial-praxis/lunr-posts-1738192365.3041177.js"></script>
+    <script src="/technosocial-praxis/lunr-posts-1738249417.3315773.js"></script>
     <script> function randomPageLink() { return "/technosocial-praxis"+lunr_posts[Math.floor(Math.random() * lunr_posts.length)].link; } </script>
     
   </head>
@@ -89,6 +89,26 @@ excerpts:</p>
     </div>
   </div>
   
+  <div id="bluesky-comments"></div>
+  <script src="/technosocial-praxis/markpub-static/js/script.js"></script>
+  <script type="importmap">
+    {
+	"imports": {
+	    "react": "https://esm.sh/react@18",
+	    "react-dom": "https://esm.sh/react-dom@18"
+	}
+    }
+  </script>
+  <script type="module">
+    import BlueskyComments from 'https://unpkg.com/bluesky-comments@0.5.1/dist/bluesky-comments.es.js';
+    document.addEventListener('DOMContentLoaded', function() {
+	const uri = 'https://bsky.app/profile/anderbill.bsky.social/post/3lgw2nljskc2o';
+	if (uri) {
+	    BlueskyComments.init('bluesky-comments', {uri});
+	}
+    });
+  </script>
+  
   <footer class="footer">
   <div class="content has-text-centered">
     
@@ -100,7 +120,7 @@ excerpts:</p>
     
     <div>Licensed under <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</div>
     
-    <div><em>Site last updated on Wednesday, January 29, 2025 at 23:12 UTC.</em></div>
+    <div><em>Site last updated on Thursday, January 30, 2025 at 15:03 UTC.</em></div>
   </div>
 </footer>
 </body>
