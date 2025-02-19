@@ -1,1 +1,0 @@
-lunr_posts= [{'link': '/Sidebar.html', 'title': 'Sidebar'}, {'link': '/my_socials_federation_info.html', 'title': 'my socials federation info'}, {'link': '/The_socials_-_notes_on_practices.html', 'title': 'The socials - notes on practices'}, {'link': '/Decentralization_-_and_Bluesky.html', 'title': 'Decentralization - and Bluesky'}, {'link': '/README.html', 'title': 'README'}]
