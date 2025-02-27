@@ -1,3 +1,7 @@
+---
+bluesky_comments_post: https://bsky.app/profile/anderbill.bsky.social/post/3lj6aob6iyl2b
+---
+
 # Italo Calvino - notes on Six Memos
 
 APAvar: Calvino, Italo (1988). Six Memos for the Next Millennium. Mariner Books.  
