@@ -1,8 +1,5 @@
 ---
 bluesky_comments_post: https://bsky.app/profile/anderbill.bsky.social/post/3ljanl3vs3h2a
----
-
----
 created: 2021-08-25T07:14:29-05:00
 modified: 2021-08-25T07:17:07-05:00
 ---
