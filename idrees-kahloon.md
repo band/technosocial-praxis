@@ -1,7 +1,3 @@
----
-bluesky_comments_post: https://bsky.app/profile/anderbill.bsky.social/post/3lipv4nlp2s2c
----
-
 # 2021-07-26 Idrees Kahloon  
 	New Yorker, July 26, 2021, pp. 67-71.  
 
