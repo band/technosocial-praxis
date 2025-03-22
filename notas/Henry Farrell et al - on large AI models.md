@@ -1,3 +1,6 @@
+---
+bluesky_comments_post: https://bsky.app/profile/anderbill.bsky.social/post/3lkymowt3tz2c
+---
 # Henry Farrell et al - on large AI models  
 A new article in Science, with Alison Gopnik, Cosma Shalizi, James Evans, and, well, me.  
 
