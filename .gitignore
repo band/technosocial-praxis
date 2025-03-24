@@ -1,5 +1,9 @@
 # Local Netlify folder
 .netlify
+
+# authentication
+.env
+
 # baseline gitignore for MARKPUB
 # for Obsidian.md vaults
 .obsidian/*
