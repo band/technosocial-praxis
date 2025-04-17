@@ -1,4 +1,4 @@
-# Files in notas
+# Wiki pages in notes
 
 - [[Post-Growth Living For an Alternative Hedonism]] *(4/17/2025, 10:38:31 AM)*
 - [[idrees-kahloon]] *(3/25/2025, 4:09:30 PM)*
