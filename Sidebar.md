@@ -15,4 +15,4 @@
 
 #### Selected content  
 
-[[folderIndex|Notes]]  
+[[idx-notes|Notes]]  
