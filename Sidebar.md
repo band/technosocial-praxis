@@ -15,4 +15,4 @@
 
 #### Selected content  
 
-[[_ndxfiles/ndx-notes|ndx-notes|Notes]]  
+[[_ndxfiles/ndx-notes|Notes]]  
