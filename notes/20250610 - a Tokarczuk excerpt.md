@@ -1,5 +1,5 @@
 ---
-bluesky-comments-post: https://bsky.app/profile/did:plc:lzccsrkbo6ldxds4xrwqwtgq/post/3lrbqt4kgvm2m
+bluesky-comments-post: https://bsky.app/profile/anderbill.bsky.social/post/3lrbqt4kgvm2m
 ---
 # 2025-06-10 - a Tokarczuk excerpt  
 
