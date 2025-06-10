@@ -1,3 +1,6 @@
+---
+weather: cloudy
+---
 # 2025-06-10 - a Tokarczuk excerpt  
 
 A social-network excerpt from Olga Tokarczuk's "Drive your plow over the bones of the dead" (<https://worldcat.org/en/title/1175678507>)  
