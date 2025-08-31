@@ -11,4 +11,4 @@
 - [[2024-05-14 federated socials]] *(3/25/2025, 4:09:22 PM)*
 - [[2022-10-29 Zuboff - a public square is not owned by billionaires]] *(3/25/2025, 4:09:22 PM)*
 
-*This list contains 10 files and was last updated on 6/10/2025, 1:15:35 PM*
+*This list contains 10 files and was last updated on 8/30/2025, 9:33:24 PM*
