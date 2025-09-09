@@ -1,6 +1,6 @@
 # Files in Root
 
-- [[evanprodromou - the point of the Fediverse]] *(9/1/2025, 12:25:10 PM)*
+- [[evanprodromou - the point of the Fediverse]] *(9/9/2025, 3:52:35 PM)*
 - [[The Dark Side of Self-help]] *(5/28/2025, 10:59:31 AM)*
 - [[my socials federation info]] *(3/25/2025, 4:09:27 PM)*
 - [[The socials - notes on practices]] *(3/25/2025, 4:09:26 PM)*
@@ -12,4 +12,4 @@
 - [[2024-05-14 federated socials]] *(3/25/2025, 4:09:22 PM)*
 - [[2022-10-29 Zuboff - a public square is not owned by billionaires]] *(3/25/2025, 4:09:22 PM)*
 
-*This list contains 11 files and was last updated on 9/1/2025, 12:25:13 PM*
+*This list contains 11 files and was last updated on 9/9/2025, 3:52:38 PM*
