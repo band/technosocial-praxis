@@ -4,10 +4,10 @@ bluesky_comments_post: https://bsky.app/profile/anderbill.bsky.social/post/3lj6a
 
 # Italo Calvino - notes on Six Memos
 
-APAvar: Calvino, Italo (1988). Six Memos for the Next Millennium. Mariner Books.  
+APA: Calvino, Italo (1988). Six Memos for the Next Millennium. Mariner Books.  
 Link: https://search.worldcat.org/en/title/948668878  
 
-nWLA: these excerpts may skip all around ...   
+(WLA: these excerpts may skip all around ... )  
 
 pages 111 - 112:  
 > But there is another definition in which I recognize myself fully, and that is of the imagination as repertoire of the potential, of the hypothetical, of that which is not and has not been and may never be but could have been.  
