@@ -2,9 +2,28 @@
 <body class="font-roboto text-gray-800 bg-gray-50 leading-relaxed">
   <!-- Header -->
   {% include '_body-header.html' %}
+
   <!-- Main Container -->
-   <!-- Main Content -->
-    <div class="container hero">
+  <div id="flex-container" class="flex max-w-full px-4 sm:px-6 lg:px-8">
+    <!-- Sidebar -->
+    <aside id="side-column" class="bg-white min-w-48 max-h-[80vh] p-5
+				   mr-4 overflow-y-auto border-r
+				   border-gray-300 shadow-sm rounded-md">
+      <div class="mb-4">
+        <button id="hide-btn" class="px-3 py-1 text-xs uppercase tracking-wider font-trebuchet bg-blue-100 text-gray-700 border border-blue-200 rounded-md hover:bg-blue-200 transition-colors mr-2">
+          Hide
+        </button>
+        <button id="move-btn" class="hidden px-3 py-1 text-xs uppercase tracking-wider font-trebuchet bg-blue-100 text-gray-700 border border-blue-200 rounded-md hover:bg-blue-200 transition-colors">
+          Move to Sidebar
+        </button>
+      </div>
+      <div class="sidebar-content">
+        {{ sidebar_body }}
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main id="main-column" class="max-w-3xl bg-white px-5 py-0 pb-5 flex-grow ml-8 shadow-sm rounded-lg">
       {% if edit_url %}
       <div class="flex justify-end mb-4 pt-4">
         <a target="_blank" href="{{edit_url}}" 
@@ -13,9 +32,7 @@
         </a>
       </div>
       {% endif %}
-    </div>
-    
-    <main class="container">
+      
       <div class="prose prose-gray max-w-none">
         {{ markdown_body }}
       </div>
@@ -32,6 +49,7 @@
       </div>
       {% endif %}
     </main>
+  </div>
   <script src="{{websiteroot}}/markpub_static/js/script.js"></script>
   {% if bluesky_comments_post %}
   <div id="bluesky-comments"></div>
@@ -58,10 +76,6 @@
     )
   </script>
   {% endif %}
-  <footer>
-    <div class="foot">
-      {% include '_footer.html' %}
-    </div>
-  </footer>
-  </body>
+  {% include '_footer.html' %}
+</body>
 </html>
