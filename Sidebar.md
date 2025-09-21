@@ -13,6 +13,6 @@
   </button>
 {< /div >}
 
-#### Selected content  
+### Selected content  
 
 [[_ndxfiles/ndx-notes|Notes]]  
