@@ -9,5 +9,6 @@
 - [[Allemang and Hendler - the web is an unruly place]] *(3/25/2025, 4:09:22 PM)*
 - [[2024-05-14 federated socials]] *(3/25/2025, 4:09:22 PM)*
 - [[2022-10-29 Zuboff - a public square is not owned by billionaires]] *(3/25/2025, 4:09:22 PM)*
+- [[20210529 Notes from Graph Commons]] *(7/30/2022, 4:02:46 PM)*
 
-*This list contains 9 files and was last updated on 9/21/2025, 8:47:23 AM*
+*This list contains 10 files and was last updated on 9/26/2025, 7:48:27 AM*
