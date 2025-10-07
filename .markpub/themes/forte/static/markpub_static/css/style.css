@@ -219,6 +219,9 @@ iframe {
   flex-grow: 1;
   margin-left: 2em;
 }
+#main-column .prose {
+    max-width: 100%;
+}
 
 /* Header */
 #header {
