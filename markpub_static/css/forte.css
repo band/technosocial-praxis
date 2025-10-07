@@ -136,7 +136,7 @@ footer{
 }
 footer .text-center {
     text-align: left;
-    padding-left: calc(2rem + 40px); /* Match main-column positioning */
+    padding-left: calc(2rem + 20px); /* adapt for main-column positioning */
     margin-left: 20%;
 }
 .foot{
