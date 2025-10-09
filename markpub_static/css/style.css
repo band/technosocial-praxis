@@ -219,9 +219,6 @@ iframe {
   flex-grow: 1;
   margin-left: 2em;
 }
-#main-column .prose {
-    max-width: 100%;
-}
 
 /* Header */
 #header {
@@ -804,7 +801,7 @@ span.incipient-wikilink:hover::after {
 }
 
 /* Prose class for markdown content */
-.prose { color: #374151; max-width: 65ch; }
+.prose { color: #374151; max-width: 71ch; }
 .prose-gray { --tw-prose-body: #374151; --tw-prose-headings: #111827; }
 
 /* Media Queries */
