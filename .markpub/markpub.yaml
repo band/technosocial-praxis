@@ -13,3 +13,4 @@ no_edit_url_pages:
 excluded_directories:
   - private_idaho
   - _attic
+  - ipfs_Explorations
