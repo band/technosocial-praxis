@@ -4,7 +4,7 @@ bluesky_comments_post: https://bsky.app/profile/anderbill.bsky.social/post/3lizk
 # Allemang and Hendler - the web is an unruly place
 
 
-APAvar: Dean Allemang & Jim Hendler (2011). _Semantic Web for the Working Ontologist: Effective modeling in RDFS and OWL_ (2 ed). Elsevier, Morgan Kaufmann  
+APA: Dean Allemang & Jim Hendler (2011). _Semantic Web for the Working Ontologist: Effective modeling in RDFS and OWL_ (2 ed). Elsevier, Morgan Kaufmann  
 Link: <http://www.worldcat.org/oclc/1185378198>  
 
 page 11: Fundamental concepts of the Semantic Web:  
