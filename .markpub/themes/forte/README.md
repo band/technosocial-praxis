@@ -1,4 +1,4 @@
-# Elysium
+# Forte - derived from Elysium
 
 A modern, Tailwind-inspired theme for MarkPub, based on the Dolce theme.
 
