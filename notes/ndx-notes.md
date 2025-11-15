@@ -11,4 +11,4 @@
 - [[2025-03-05 - inverse utilitarianism]] *(3/25/2025, 4:09:28 PM)*
 - [[Decentralized organizations and social defenses - notes]] *(11/20/2024, 7:46:34 AM)*
 
-*This list contains 10 files and was last updated on 10/24/2025, 9:18:57 AM*
+*This list contains 10 files and was last updated on 11/8/2025, 9:25:54 PM*
