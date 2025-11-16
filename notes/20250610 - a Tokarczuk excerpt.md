@@ -1,6 +1,3 @@
----
-bluesky_comments_post: https://blacksky.community/profile/did:plc:lzccsrkbo6ldxds4xrwqwtgq/post/3lrbqt4kgvm2m
----
 # 2025-06-10 - a Tokarczuk excerpt  
 
 A social-network excerpt from Olga Tokarczuk's "Drive your plow over the bones of the dead" (<https://worldcat.org/en/title/1175678507>)  
