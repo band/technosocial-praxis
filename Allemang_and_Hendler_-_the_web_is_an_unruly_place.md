@@ -9,7 +9,7 @@ Link: <http://www.worldcat.org/oclc/1185378198>
 
 page 11: Fundamental concepts of the Semantic Web:  
 
-*The AAA slogan* -- Anyone can say Anything about Any topic. One of the basic tenets of the Web in general and the Semantice Web in particular.  
+*The AAA slogan* -- Anyone can say Anything about Any topic. One of the basic tenets of the Web in general and the Semantic Web in particular.  
 
 *Open world/Closed world* -- A consequence of the AAA slogan is that there could always be something new that someone will say: this means that we must assume that there is always more information that could be known.  
 
