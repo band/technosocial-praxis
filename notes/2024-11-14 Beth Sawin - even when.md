@@ -1,3 +1,6 @@
+---
+bluesky-comments-post: https://hachyderm.io/@band/115588750422524467
+---
 # 2024-11-14 Beth Sawin - even when
 
 Out and about on the socials:  
