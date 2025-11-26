@@ -1,5 +1,5 @@
 ---
-mastodon-comments-post: https://hachyderm.io/@band/115588750422524467
+mastodon_comments_post: https://hachyderm.io/@band/115588750422524467
 ---
 # 2024-11-14 Beth Sawin - even when
 
