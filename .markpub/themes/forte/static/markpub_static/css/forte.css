@@ -58,7 +58,7 @@ body{
 }
 input{
     outline: none;
-    border: 1px solid gray-50;
+    border: 1px solid #d1d5db; /* gray-300 */
 }
 input:focus{
     border: 0px solid #3b82f6 !important;
