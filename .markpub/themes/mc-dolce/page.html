@@ -40,7 +40,7 @@
   <data id="file-path-data" value="{{file_path}}"></data>
   <script src="{{websiteroot}}/markpub-static/js/script.js"></script>
   {% if bluesky_comments_post %}
-  <div id="mastodon-comments"></div>
+  <div id="dwebsocials-comments"></div>
   <script type="importmap">
     {
 	"imports": {
@@ -55,7 +55,7 @@
     import { MastodonComments } from 'http://127.0.0.1:8080/mastodon-comments.es.js'
 
     const uri = '{{bluesky_comments_post}}'
-    const container = document.getElementById('mastodon-comments')
+    const container = document.getElementById('dwebsocials-comments')
     console.log(container)
     console.log(container.children)
     const root = createRoot(container)
