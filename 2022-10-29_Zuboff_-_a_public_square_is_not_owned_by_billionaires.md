@@ -8,7 +8,7 @@ Shoshana Zuboff (@shoshanazuboff): Friends, Elon sees Twitter as the “common d
 
 Today Elon says Twitter will not be a “Hellscape.” But tomorrow he may awaken craving Hell. Society is at his mercy. This is vast unaccountable power that leaves us bystanders to our own future. [2/6]
 
-Sound familiar? We’ve begged Mr. Zuckerberg to end the social wreckage, honor privacy, stop disinformation and hate. It all just gets worse. Now Free Press reports on Facebook’s abysmal failure to act, continuing to put  elections at risk. https://tinyurl.com/5hdfhz3j [3/6]
+Sound familiar? We’ve begged Mr. Zuckerberg to end the social wreckage, honor privacy, stop disinformation and hate. It all just gets worse. Now Free Press reports on Facebook’s abysmal failure to act, continuing to put  elections at risk. <https://tinyurl.com/5hdfhz3j> [3/6]
 
 What's going on here? This is #SurveillanceCapitalism, where corrupt information is more profitable than truth.  Without new rights and laws to guarantee democratic principles in this digital century, our pleas for pro-social corporate behavior are hopeless.[4/6]
 

@@ -1,5 +1,5 @@
 ## 2021-05-19 Notes from GraphCommons / mapping networks
-   (https://medium.com/graph-commons/mapping-networks-1dea70b2f550)
+   (<https://medium.com/graph-commons/mapping-networks-1dea70b2f550>)
    
 ### Four general categories of network relationships (?)
 

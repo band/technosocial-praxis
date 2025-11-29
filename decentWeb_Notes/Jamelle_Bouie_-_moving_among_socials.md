@@ -1,8 +1,8 @@
 # 2022-12-16 Jamelle Bouie - on moving among the socials
 
-b-boy bouiebaisse (@jbouie): So I joined Post but I'm on the waitlist, if you use this to sign up then supposedly I will be off the waitlist sooner. https://post.news/?r=UCPL5
+b-boy bouiebaisse (@jbouie): So I joined Post but I'm on the waitlist, if you use this to sign up then supposedly I will be off the waitlist sooner. <https://post.news/?r=UCPL5>
 
-I have a Mastodon handle but honestly I don't think the site is all that good or usable. If you want to find me elsewhere, your best bets are Instagram (where I'm also @jbouie), TikTok (where I'm "jamellebouie") and my blog. http://jamellebouie.net
+I have a Mastodon handle but honestly I don't think the site is all that good or usable. If you want to find me elsewhere, your best bets are Instagram (where I'm also @jbouie), TikTok (where I'm "jamellebouie") and my blog. <http://jamellebouie.net>
 
 I also might create a subreddit? Who knows, I don't have the time to moderate that shit.
 
