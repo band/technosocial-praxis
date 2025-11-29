@@ -4,7 +4,7 @@
 
 @Maho Pacheco · Feb 6, 2024
 
-https://maho.dev/2024/02/a-guide-to-implement-activitypub-in-a-static-site-or-any-website/  
+<https://maho.dev/2024/02/a-guide-to-implement-activitypub-in-a-static-site-or-any-website/>  
 
 [Blog 2](https://maho.dev/2024/02/a-guide-to-implement-activitypub-in-a-static-site-or-any-website-part-2/)
 :  

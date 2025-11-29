@@ -1,7 +1,7 @@
 # Italo Calvino - notes on Six Memos
 
 APA: Calvino, Italo (1988). Six Memos for the Next Millennium. Mariner Books.  
-Link: https://search.worldcat.org/en/title/948668878  
+Link: <https://search.worldcat.org/en/title/948668878>  
 
 (WLA: these excerpts may skip all around ... )  
 
