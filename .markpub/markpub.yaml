@@ -9,8 +9,8 @@ recent_changes_count: 5
 sidebar: Sidebar.md
 theme: forte
 no_edit_url_pages:
-  - ndx-*.md
+- ndx-*.md
 excluded_directories:
-  - private_idaho
-  - _attic
-  - ipfs_Explorations
+- private_idaho
+- _attic
+- ipfs_Explorations
