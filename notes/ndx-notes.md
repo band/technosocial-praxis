@@ -11,4 +11,4 @@
 - [[Henry Farrell et al - on large AI models]] *(3/25/2025, 4:09:30 PM)*
 - [[Decentralized organizations and social defenses - notes]] *(11/20/2024, 7:46:34 AM)*
 
-*This list contains 10 files and was last updated on 11/29/2025, 5:19:33 PM*
+*This list contains 10 files and was last updated on 12/4/2025, 3:02:42 PM*
