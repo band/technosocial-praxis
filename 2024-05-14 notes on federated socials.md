@@ -12,3 +12,7 @@ My Bluesky account had been bridged to my Mastodon instance, using  Bridgy Fed `
 A month ago I decided to move my Bluesky account to a "blacksky.community" PDS. The transition was easy, the documentation great, and the Blacksky support was fast and helpful with my own mis-understandings. One other pleasant surprise in this Bluesky->Blacksky transition was how well `deck.blue` just kept on working.  
 
 So these experiences bode well for federating a collection of socials. I'm optimistic about decentralized web developments.  
+
+## 2025-12-10 notes:  
+
+Posted today on "blacksky.community" and it showed up right away on my Mastodon Home feed. And an early morning post on my Masto instance shows up on my "blacksky.community" "federated" tab. So, yes Bridgy Fed is working.
