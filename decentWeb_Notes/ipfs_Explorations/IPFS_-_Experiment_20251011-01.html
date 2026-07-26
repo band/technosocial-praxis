@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="fs_path" content="/decentWeb Notes/ipfs_Explorations/IPFS - Experiment 20251011-01.md">
+    
+    <title>IPFS - Experiment 20251011-01 - Social Praxis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/technosocial-praxis/markpub_static/css/style.css">
+    <link rel="stylesheet" href="/technosocial-praxis/markpub_static/css/forte.css">
+    <link rel="stylesheet" href="/technosocial-praxis/markpub_static/css/custom.css">
+    <link rel="stylesheet" href="https://unpkg.com/bluesky-comments@0.12.0/dist/bluesky-comments.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+    <script src="/technosocial-praxis/lunr-index-1785070724.710536.js"></script>
+    <script>var index = lunr.Index.load(lunr_index)</script>
+    
+    
+    <script src="/technosocial-praxis/lunr-posts-1785070724.710536.js"></script>
+    <script> function randomPageLink() { return "/technosocial-praxis"+lunr_posts[Math.floor(Math.random() * lunr_posts.length)].link; } </script>
+    
+  </head>
+<body class="font-roboto text-gray-800 bg-gray-50 leading-relaxed">
+  <!-- Header -->
+    <header id="header" class="bg-gradient-to-r from-blue-500 to-blue-600 border-b-2 border-blue-700 px-4 py-3 sm:px-6">
+    <div class="flex items-center">
+      <button id="hamburger-btn" class="hidden text-white text-2xl mr-3 hover:text-blue-100 transition-colors" aria-label="Toggle menu">
+        &#9776;
+      </button>
+      <a id="header-link" href="/technosocial-praxis/index.html" 
+         class="text-white text-2xl font-light font-roboto uppercase tracking-wide hover:text-blue-100 transition-colors no-underline">
+        Social Praxis
+      </a>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <div id="flex-container" class="flex max-w-full px-4 sm:px-6 lg:px-8">
+    <!-- Sidebar -->
+    <aside id="side-column" class="bg-white min-w-48 max-h-[80vh] p-5
+				   mr-4 overflow-y-auto border-r
+				   border-gray-300 shadow-sm rounded-md">
+      <div class="mb-4">
+        <button id="hide-btn" class="px-3 py-1 text-xs uppercase tracking-wider font-trebuchet bg-blue-100 text-gray-700 border border-blue-200 rounded-md hover:bg-blue-200 transition-colors mr-2">
+          Hide
+        </button>
+        <button id="move-btn" class="hidden px-3 py-1 text-xs uppercase tracking-wider font-trebuchet bg-blue-100 text-gray-700 border border-blue-200 rounded-md hover:bg-blue-200 transition-colors">
+          Move to Sidebar
+        </button>
+      </div>
+      <div class="sidebar-content">
+        <h3>Site Navigation</h3>
+<div class="navlinks">
+<ul>
+<li><a class="wikilink" href="/technosocial-praxis/README.html">HOME</a></li>
+<li><a href="/technosocial-praxis/search.html">SEARCH</a></li>
+<li><a href="/technosocial-praxis/all-pages.html">ALL PAGES</a></li>
+<li><a href="/technosocial-praxis/recent-pages.html">RECENT CHANGES</a></li>
+</ul>
+</div>
+<div class="navlinks">
+  <button onclick="location.href=`${randomPageLink()}`">
+    RANDOM PAGE
+  </button>
+</div>
+<h3>Selected content</h3>
+<p><a class="wikilink" href="/technosocial-praxis/notes/ndx-notes.html">Notes</a></p>
+
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main id="main-column" class="max-w-3xl bg-white px-5 py-0 pb-5 flex-grow ml-8 shadow-sm rounded-lg">
+      
+      <div class="flex justify-end mb-4 pt-4">
+        <a target="_blank" href="https://github.com/band/socialpraxis/edit/main/decentWeb Notes/ipfs_Explorations/IPFS - Experiment 20251011-01.md" 
+           class="inline-block px-3 py-1 bg-blue-100 border border-blue-200 text-gray-700 text-sm font-trebuchet rounded-lg hover:bg-blue-200 transition-colors no-underline">
+          Edit on GitHub
+        </a>
+      </div>
+      
+      
+      <div class="prose prose-gray max-w-none">
+        <h1>IPFS - Experiment 20251011-01</h1>
+<p>This experiment is to follow the instructions in <a href="https://snapstack.massive.wiki/snapstack_-_collaborative_writing,_stacked_as_immutable_snapshots">SnapStack - Collaborative Writing, Stacked as Immutable Snapshots</a></p>
+<p>Starting assumptions and expectations:</p>
+<ul>
+<li>reusing the "decentwebLab" folder</li>
+<li>this will create more clutter in the local datastore, so think about cleanup and document how you do it</li>
+<li>one goal is to have a working understanding of IPNS naming and what happens when updates are made and shared.</li>
+</ul>
+<h4>Notes on using the Collab Writing instructions:</h4>
+<ul>
+<li>ipfs is installed; daemon is running</li>
+<li>since we will be updating this wiki page there may be (too?) many updates
+<ul>
+<li>Note: move this page outside of the "decenwebLab" folder while running this experiment.</li>
+</ul>
+</li>
+</ul>
+<pre><code class="language-shell">ipfs add -Qr /Users/band/Documents/ipfsLab/decentwebLab
+QmTeryTWHxALVdnGnDEekPGJuxc4JDRtiZcRYuMgFqDu16
+</code></pre>
+<p>Q: full path required?</p>
+<pre><code class="language-shell">ipfs pin add QmTeryTWHxALVdnGnDEekPGJuxc4JDRtiZcRYuMgFqDu16
+pinned QmTeryTWHxALVdnGnDEekPGJuxc4JDRtiZcRYuMgFqDu16 recursively
+
+ipfs name publish --key=texts-key QmTeryTWHxALVdnGnDEekPGJuxc4JDRtiZcRYuMgFqDu16
+Published to k2k4r8mazpw2t842at6vdle2457tjp07veae06r8exytw17b0tykgyw8: /ipfs/QmTeryTWHxALVdnGnDEekPGJuxc4JDRtiZcRYuMgFqDu16
+</code></pre>
+<p>Note: there is an error in the instructions: the numbering is not sequential and the instruction on using <code>ipfs name publish</code> has a confusing reference.</p>
+<ul>
+<li>reset: did <code>ipfs pin ls</code> and <code>ipfs pin rm</code> on all CIDs</li>
+</ul>
+<pre><code class="language-shell">ipfs add -Qr ./decentwebLab 
+QmTeryTWHxALVdnGnDEekPGJuxc4JDRtiZcRYuMgFqDu16
+
+ipfs name publish --key=texts-key QmTeryTWHxALVdnGnDEekPGJuxc4JDRtiZcRYuMgFqDu16
+Published to k2k4r8mazpw2t842at6vdle2457tjp07veae06r8exytw17b0tykgyw8: /ipfs/QmTeryTWHxALVdnGnDEekPGJuxc4JDRtiZcRYuMgFqDu16
+
+ipfs pin ls
+QmSnpAUF4fsxPkS5ydjqkWhnpeCYRzj7YqWsQNiFTd919S indirect
+QmTeryTWHxALVdnGnDEekPGJuxc4JDRtiZcRYuMgFqDu16 recursive
+QmUw1L6KRtfTwd1AHxcbxTUMVJHgTUz31vp3W5gXGD2ebK indirect
+QmWdrnrxE9TZD7q5GLdytSK4ompYnEnTWnFq49fcLWCuST indirect
+QmaVC7uhB8beGHowqq6LSjxa9TpwFSgTd1igS1MhGuZgCJ indirect
+QmPZdDWqJ5cdej6vRYMjfk8tHwX2DiSpHDSkAb4aW9aFNK indirect
+</code></pre>
+<ul>
+<li>off the script experiment:</li>
+</ul>
+<pre><code class="language-shell">pinata upload --name decentwebLab --verbose ./decentwebLab 
+Uploading folder decentwebLab (25.75 KB)
+Uploading... 100% |████████████████████████████████████████| (72 kB/s)        
+{
+    "id": "b72de665-3380-4bfa-8337-b9a3945ae4a6",
+    "name": "decentwebLab",
+    "cid": "bafybeidwzviakfgtslludikdkv4hssu7nefdzghxhahelkfoismcpz34tu",
+    "size": 23890,
+    "created_at": "2025-10-12T21:44:05.411Z",
+    "number_of_files": 12,
+    "mime_type": "directory",
+    "group_id": null,
+    "keyvalues": null,
+    "vectorized": false,
+    "network": "public"
+}
+</code></pre>
+<ul>
+<li>my first question: why is the number of files 12; there are only 7 files in the directory.
+<ul>
+<li>follow-on experiment:</li>
+<li>delete the pinata object</li>
+<li>move the <code>.obsidian</code> directory to a holding pen</li>
+<li>delete the pin from the local store and pinata</li>
+<li>and we will re-add, re-pin, re-upload</li>
+</ul>
+</li>
+</ul>
+<p><strong>2025-10-13</strong> today's labwork:</p>
+<pre><code class="language-shell">ipfs add -Qr ./decentwebLab 
+QmTeryTWHxALVdnGnDEekPGJuxc4JDRtiZcRYuMgFqDu16
+CIDa=QmTeryTWHxALVdnGnDEekPGJuxc4JDRtiZcRYuMgFqDu16
+
+ipfs name publish --key=texts-key $CIDa
+Published to k2k4r8mazpw2t842at6vdle2457tjp07veae06r8exytw17b0tykgyw8: /ipfs/QmTeryTWHxALVdnGnDEekPGJuxc4JDRtiZcRYuMgFqDu16
+
+ipfs pin add $CIDa
+pinned QmTeryTWHxALVdnGnDEekPGJuxc4JDRtiZcRYuMgFqDu16 recursively
+
+pinata upload --name decentwebLab ./decentwebLab 
+{
+    "id": "6add5b4e-9283-47ee-ae7a-8cecd76288cc",
+    "name": "decentwebLab",
+    "cid": "bafybeidnaeqqjouip7tpvl4yfqh7prmd6d6zg2stbbktecnh5lrbcvwoiq",
+    "size": 1887,
+    "created_at": "2025-10-13T12:36:58.902Z",
+    "number_of_files": 4,
+    "mime_type": "directory",
+    "group_id": null,
+    "keyvalues": null,
+    "vectorized": false,
+    "network": "public"
+}
+</code></pre>
+<pre><code class="language-shell">ipfs pin ls
+QmPZdDWqJ5cdej6vRYMjfk8tHwX2DiSpHDSkAb4aW9aFNK indirect
+QmSnpAUF4fsxPkS5ydjqkWhnpeCYRzj7YqWsQNiFTd919S indirect
+QmTeryTWHxALVdnGnDEekPGJuxc4JDRtiZcRYuMgFqDu16 recursive
+QmUw1L6KRtfTwd1AHxcbxTUMVJHgTUz31vp3W5gXGD2ebK indirect
+QmWdrnrxE9TZD7q5GLdytSK4ompYnEnTWnFq49fcLWCuST indirect
+QmaVC7uhB8beGHowqq6LSjxa9TpwFSgTd1igS1MhGuZgCJ indirect
+
+pinata files list
+{
+    "files": [
+        {
+            "id": "6add5b4e-9283-47ee-ae7a-8cecd76288cc",
+            "name": "decentwebLab",
+            "cid": "bafybeidnaeqqjouip7tpvl4yfqh7prmd6d6zg2stbbktecnh5lrbcvwoiq",
+            "size": 1887,
+            "number_of_files": 4,
+            "mime_type": "directory",
+            "keyvalues": {},
+            "created_at": "2025-10-13T12:36:58.902Z"
+        },
+        {
+            "id": "019924f3-8717-7897-922a-1198da7aadea",
+            "name": "philosophers-on-gpt3.md",
+            "cid": "bafkreigvtgxxey6dv7a752wbz3bc24guklcqsu4l6ib5ibym2de2aw6pai",
+            "size": 527,
+            "number_of_files": 1,
+            "mime_type": "text/markdown",
+            "keyvalues": {},
+            "created_at": "2025-09-07T16:12:44.39Z"
+        }
+    ],
+    "next_page_token": "MjAyNS0wOS0wN1QxNjoxMjo0NC4zOSswMDowMHwwMTk5MjRmMy04NzE3LTc4OTctOTIyYS0xMTk4ZGE3YWFkZWE="
+}
+</code></pre>
+<ul>
+<li>after some documentation reading I think I have a better idea of what I have already done and how to think about using IPFS going forward.</li>
+<li>observations from today's lab work:
+<ul>
+<li>the Pinata upload did indeed upload all the files in "decentwebLab"</li>
+<li>can use Pinata CLI (once installed) to list pinned files and also to generate a URL to share (this URL is long and not easy to read, not useful for sharing with others; generating custom URLs requires Pinata professional level ($20/mo.))</li>
+<li>one outcome is that successful use of IPFS will require paid services
+TODO: compare my experiences with the "SnapStack - Collaborative Writing ..." documentation.</li>
+</ul>
+</li>
+</ul>
+
+      </div>
+      
+      
+    </main>
+  </div>
+  <script src="/technosocial-praxis/markpub_static/js/script.js"></script>
+  
+  <footer class="bg-gray-100 py-8 mt-12">
+  <div class="text-center text-gray-600 space-y-1">
+    
+    <div><strong class="font-semibold text-gray-800">Social Praxis</strong> by anderbill.</div>
+    
+    
+    <div>Central repository at <a href="https://github.com/band/socialpraxis">socialpraxis</a>.</div>
+    
+    
+    <div>Licensed under <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</div>
+    
+    <div class="text-sm italic">Site last updated on Sunday, July 26, 2026 at 12:58 UTC.</div>
+  </div>
+</footer>
+</body>
+</html>

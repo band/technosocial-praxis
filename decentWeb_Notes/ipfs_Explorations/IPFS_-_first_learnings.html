@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <meta name="fs_path" content="/decentWeb Notes/my socials federation info.md">
+    <meta name="fs_path" content="/decentWeb Notes/ipfs_Explorations/IPFS - first learnings.md">
     
-    <title>my socials federation info - Social Praxis</title>
+    <title>IPFS - first learnings - Social Praxis</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -78,7 +78,7 @@
     <main id="main-column" class="max-w-3xl bg-white px-5 py-0 pb-5 flex-grow ml-8 shadow-sm rounded-lg">
       
       <div class="flex justify-end mb-4 pt-4">
-        <a target="_blank" href="https://github.com/band/socialpraxis/edit/main/decentWeb Notes/my socials federation info.md" 
+        <a target="_blank" href="https://github.com/band/socialpraxis/edit/main/decentWeb Notes/ipfs_Explorations/IPFS - first learnings.md" 
            class="inline-block px-3 py-1 bg-blue-100 border border-blue-200 text-gray-700 text-sm font-trebuchet rounded-lg hover:bg-blue-200 transition-colors no-underline">
           Edit on GitHub
         </a>
@@ -86,55 +86,136 @@
       
       
       <div class="prose prose-gray max-w-none">
-        <h1>my socials federation info</h1>
-<p>2024-12-23: my current understanding of how my socials are federated</p>
-<p>from my bsky account: Bill Anderson @anderbill.bsky.social</p>
+        <h1>IPFS - first learnings</h1>
+<h3>2025-09-04</h3>
 <ul>
-<li>Mastodon instance account bridge information:</li>
-<li><code>https://bsky.app/profile/band.hachyderm.io.ap.brid.gy</code></li>
-</ul>
-<pre><code class="language-text">@band.hachyderm.io.ap.brid.gy Follows you
-[bridged from hachyderm.io/@band on the fediverse by fed.brid.gy]
-</code></pre>
+<li>how to set up and share a directory of files</li>
+<li>so far: <code>ipfs</code> installed</li>
+<li>TODO:
 <ul>
-<li>Threads account bridge information:</li>
-<li><code>https://bsky.app/profile/anderbill.threads.net.ap.brid.gy</code></li>
-</ul>
-<pre><code class="language-text">@anderbill.threads.net.ap.brid.gy Follows you
-[bridged from threads.net/@anderbill/ on the fediverse by fed.brid.gy]
-</code></pre>
-<p>from my Mastodon instance account: @band@hachyderm.io</p>
-<ul>
-<li>bksy account information:</li>
-</ul>
-<pre><code class="language-text">Bill Anderson @anderbill.bsky.social bsky.brid.gy
-bridged from anderbill.bsky.social on Bluesky by Bridgy Fed
-JOINED May 08, 2024
-WEB SITE bsky.app/profile/anderbill.bsky.social
-</code></pre>
-<ul>
-<li>Threads account information:
-<ul>
-<li>this connection uses the ActivityPub protocol</li>
+<li>start <code>daemon</code></li>
+<li>review configuration and security settings</li>
+<li></li>
 </ul>
 </li>
 </ul>
-<pre><code class="language-text">Bill Anderson @anderbill threads.net
-JOINED Jun 29, 2024
+<pre><code>	
+</code></pre>
+<h3>2025-09-06</h3>
+<ul>
+<li>clean up previous work and pinned CIDs</li>
+</ul>
+<pre><code class="language-shell"># list pinned CIDs
+ipfs pin ls
+# list the recursive CIDs (often directories)
+ipfs pin ls --type=recursive -q
+# unpin all the recursives
+ipfs pin ls --type=recursive -q | xargs -I {} ipfs pin rm {}
+# run garbage collection
+ipfs repo gc
+</code></pre>
+<ul>
+<li>remove existing <code>ipfs</code> node information:</li>
+</ul>
+<pre><code class="language-shell">cd
+rm -fr .ipfs
+</code></pre>
+<ul>
+<li>re-initialize and start the daemon:</li>
+</ul>
+<pre><code class="language-shell">cd
+ipfs init
+# in a new Terminal window
+ipfs daemon
+</code></pre>
+<pre><code class="language-shell">ipfs id
+{
+"ID": "12D3KooWAHzQGThaJFBspvtR86ctp4dHG3ShnR639WCZZbjaLHrc",
+"PublicKey": "CAESIAcTppsB0c6+NO0r2C47FAEHy729YTbor11DN+gau+BF",
+"Addresses": null,
+"AgentVersion": "kubo/0.37.0/Homebrew",
+"Protocols": null
+}
+</code></pre>
+<pre><code class="language-shell"> ipfs add -r decentwebLab 
+
+added QmZ6TrWUG8AepdisP9Kb9sCBHGMkgX28QasYHz8xu1ioYn decentwebLab/IPFS - first learnings.md
+added QmT5ZeqDH4CKEMBax9Wr1kZduGUtPNJN1KbsXDnByPJDDy decentwebLab/README.md
+added QmR9mCDTGtvUmCDXu18LuNdBzEu6W4DgGo1L7rYMrgYJBb decentwebLab/philosophers-on-gpt3.md
+added QmUNLLsPACCz1vLxQVkXqqLX5R1X345qqfHbsf67hvA3Nn decentwebLab/workbench
+added QmZPmK62yFeqyfeMB94DSBi3HdgPD9B6e9XEfQ8Mhw31XJ decentwebLab
+</code></pre>
+<h5>Published to IPNS with webui:</h5>
+<p>CID: QmZPmK62yFeqyfeMB94DSBi3HdgPD9B6e9XEfQ8Mhw31XJ
+Successfully published under the key:
+self</p>
+<p>k51qzi5uqu5dgcxt06uyhhlr3jlynz1otorikjymrj22d9491xtdva5rkbzepx</p>
+<p>Copy the link below and share it with others. The IPNS address
+will resolve as long as your node remains available on the
+network once a day to refresh the IPNS record.
+https://ipfs.io/ipns/k51qzi5uqu5dgcxt06uyhhlr3jlynz1otorl</p>
+<p>https://ipfs.io/ipns/k51qzi5uqu5dgcxt06uyhhlr3jlynz1otorikjymrj22d949lxtdva5rkbzepx<br />
+Observation: this URL does not provide a usable view</p>
+<h3>2025-09-07:</h3>
+<p>some collected notes and observations from setting up and using Pinata</p>
+<ul>
+<li>
+<p>set up a pinata.cloud account</p>
+</li>
+<li>
+<p>created API keys</p>
+</li>
+<li>
+<p>uploaded “philosophers on gpt3” to Pinata</p>
+</li>
+</ul>
+<pre><code class="language-shell">pinata upload --verbose philosophers-on-gpt3.md
+Uploading philosophers-on-gpt3.md (1.04 KB)
+Uploading... 100% |████████████████████████████████████████| (10 kB/s)
+{
+    "id": "019924f3-8717-7897-922a-1198da7aadea",
+    "name": "philosophers-on-gpt3.md",
+    "cid": "bafkreigvtgxxey6dv7a752wbz3bc24guklcqsu4l6ib5ibym2de2aw6pai",
+    "size": 527,
+    "created_at": "2025-09-07T16:12:44.390Z",
+    "number_of_files": 1,
+    "mime_type": "text/markdown",
+    "group_id": null,
+    "keyvalues": null,
+    "vectorized": false,
+    "network": "public"
+}
+pinata files list
+{
+    "files": [
+        {
+            "id": "019924f3-8717-7897-922a-1198da7aadea",
+            "name": "philosophers-on-gpt3.md",
+            "cid": "bafkreigvtgxxey6dv7a752wbz3bc24guklcqsu4l6ib5ibym2de2aw6pai",
+            "size": 527,
+            "number_of_files": 1,
+            "mime_type": "text/markdown",
+            "keyvalues": {},
+            "created_at": "2025-09-07T16:12:44.39Z"
+        }
+    ],
+    "next_page_token": "MjAyNS0wOS0wN1QxNjoxMjo0NC4zOSswMDowMHwwMTk5MjRmMy04NzE3LTc4OTctOTIyYS0xMTk4ZGE3YWFkZWE="
+}
+</code></pre>
+<ul>
+<li>after making changes to philosophers-on-gpt3 re-added the changes:</li>
+</ul>
+<pre><code class="language-shell">ipfs add -r decentwebLab
+added QmbSYLRETZVBUctuc3PBCRVvEzdBtP3Cbfi5x3PbwTY9kk decentwebLab/IPFS - first learnings.md
+added QmT5ZeqDH4CKEMBax9Wr1kZduGUtPNJN1KbsXDnByPJDDy decentwebLab/README.md
+added QmaVC7uhB8beGHowqq6LSjxa9TpwFSgTd1igS1MhGuZgCJ decentwebLab/philosophers-on-gpt3.md
+added QmUNLLsPACCz1vLxQVkXqqLX5R1X345qqfHbsf67hvA3Nn decentwebLab/workbench
+added QmV7cgWj6ajf3kJEjDbMkcfPqK8riw1je2AMqgFrpBLzfb decentwebLab
+ 2.76 KiB / 2.76 KiB [==================================================================================================================] 100.00%
 </code></pre>
 
       </div>
       
-      
-      <hr class="my-6 border-gray-300">
-      <div>
-        <h4 class="text-lg font-semibold font-trebuchet text-gray-700 mb-3">Pages that link to this page</h4>
-        <ul class="list-disc pl-5 space-y-1">
-          
-          <li><a href="/technosocial-praxis/The_socials_-_notes_on_practices.html" class="text-blue-600 hover:text-blue-800 transition-colors">The socials - notes on practices</a></li>
-          
-        </ul>
-      </div>
       
     </main>
   </div>
