@@ -1,5 +1,6 @@
 # Files in Root
 
+- [[AI - some notes and thoughts]] *(7/26/2026, 7:57:21 AM)*
 - [[2024-05-14 notes on federated socials]] *(12/10/2025, 12:44:37 PM)*
 - [[20210529 Notes from Graph Commons]] *(11/29/2025, 5:18:11 PM)*
 - [[2022-10-29 Zuboff - a public square is not owned by billionaires]] *(11/29/2025, 5:17:46 PM)*
@@ -11,4 +12,4 @@
 - [[ActivityPub and ATProtocol observations and notes]] *(9/16/2025, 3:53:55 PM)*
 - [[evanprodromou - the point of the Fediverse]] *(9/9/2025, 3:52:35 PM)*
 
-*This list contains 10 files and was last updated on 1/14/2026, 4:39:31 PM*
+*This list contains 11 files and was last updated on 7/26/2026, 7:57:24 AM*
